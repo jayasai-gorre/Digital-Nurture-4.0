@@ -1,0 +1,5 @@
+com/gorrejayasai/di/LibraryManagementApplication.class
+com/gorrejayasai/di/service/BookService.class
+com/gorrejayasai/di/repository/BookRepository.class
+com/gorrejayasai/di/book/Book.class
+com/gorrejayasai/di/App.class
