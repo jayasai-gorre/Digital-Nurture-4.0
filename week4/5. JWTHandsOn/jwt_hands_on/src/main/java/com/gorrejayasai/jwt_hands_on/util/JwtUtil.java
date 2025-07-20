@@ -19,8 +19,11 @@ public class JwtUtil {
     private Key getSigningKey() {
         return Keys.hmacShaKeyFor(SECRET_KEY.getBytes());
     }
+    
 
     public String generateToken(String username) {
+
+        System.out.println("coming");
         return Jwts.builder()
                 .setSubject(username)
                 .setIssuedAt(new Date())

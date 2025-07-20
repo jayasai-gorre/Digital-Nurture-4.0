@@ -1,0 +1,15 @@
+/**
+ * Author: Gorre Jaya Sai
+ * Main class for the Loan Microservice application.
+ */
+package com.cognizant.loan;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class LoanServiceApplication {
+    public static void main(String[] args) {
+        SpringApplication.run(LoanServiceApplication.class, args);
+    }
+}

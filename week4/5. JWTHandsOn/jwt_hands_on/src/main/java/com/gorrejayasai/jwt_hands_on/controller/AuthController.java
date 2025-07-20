@@ -18,6 +18,7 @@ public class AuthController {
 
     @PostMapping("/login")
     public AuthResponse login(@RequestBody AuthRequest authRequest) {
+        System.out.println("coming");
         // For demo: username=admin, password=password
         if ("admin".equals(authRequest.getUsername()) && "password".equals(authRequest.getPassword())) {
             String token = jwtUtil.generateToken(authRequest.getUsername());
